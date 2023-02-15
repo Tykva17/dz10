@@ -11,6 +11,7 @@ let dollarStr = '';
 for(let i = 10; i <= 100; i = i + 10){
     dollarStr += i * dollar + ' ';
 }
+
 console.log('N2) ' + dollarStr);
 
 // // N3
