@@ -29,7 +29,7 @@ let simpleNum = 17;
 let resultStr = '';
 let count = 0;
 for(let i = 1; i <= simpleNum; i++){
-    if(simpleNum % i == 0){
+    if(simpleNum % i === 0){
         count++;
     }
     if(count > 2){
@@ -45,7 +45,7 @@ let someNum = 49;
 const ispectNum = 3;
 let resultInspectStr = '';
 for(let i=1; i <= someNum; i++){
-    if(ispectNum**i <= someNum && ispectNum**i == someNum){
+    if(ispectNum**i <= someNum && ispectNum**i === someNum){
         resultInspectStr = 'можна отримати';
         break;
     }else {
